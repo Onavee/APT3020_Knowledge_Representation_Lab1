@@ -13,23 +13,7 @@ A simple **rule-based expert system** that infers possible illnesses from a set 
 
 ---
 
-## Repository Structure
 
-```
-medical-expert-system/
-│
-├── knowledge_base/
-│   └── knowledge_base.json      # Task 1 – Structured knowledge base (facts, symptoms, diseases, rules)
-│
-├── diagrams/
-│   └── semantic_network.svg     # Task 3 – Semantic network diagram
-│
-├── expert_system.py             # Task 2 – Rule-based inference engine (CLI)
-├── index.html                   # Bonus – Interactive web demo
-└── README.md                    # This file
-```
-
----
 
 ## Tasks Completed
 
