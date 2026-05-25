@@ -1,0 +1,47 @@
+{
+  "symptoms": [
+    "Fever",
+    "Headache",
+    "Cough",
+    "Chest Pain",
+    "Sneezing",
+    "Runny Nose",
+    "Fatigue",
+    "Sore Throat",
+    "Vomiting",
+    "Diarrhea"
+  ],
+  "diseases": [
+    "Malaria",
+    "Pneumonia",
+    "Flu",
+    "Food Poisoning"
+  ],
+  "rules": [
+    {
+      "id": "R1",
+      "if": ["Fever", "Headache", "Fatigue"],
+      "then": "Malaria",
+      "description": "IF Fever AND Headache AND Fatigue → Malaria"
+    },
+    {
+      "id": "R2",
+      "if": ["Cough", "Chest Pain", "Fatigue"],
+      "then": "Pneumonia",
+      "description": "IF Cough AND Chest Pain AND Fatigue → Pneumonia"
+    },
+    {
+      "id": "R3",
+      "if": ["Sneezing", "Runny Nose", "Sore Throat"],
+      "then": "Flu",
+      "description": "IF Sneezing AND Runny Nose AND Sore Throat → Flu"
+    },
+    {
+      "id": "R4",
+      "if": ["Vomiting", "Diarrhea", "Fatigue"],
+      "then": "Food Poisoning",
+      "description": "IF Vomiting AND Diarrhea AND Fatigue → Food Poisoning"
+    }
+  ]
+  
+}
