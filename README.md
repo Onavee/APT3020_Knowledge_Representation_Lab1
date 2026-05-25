@@ -64,10 +64,10 @@ The system uses **forward chaining**:
 ```
 Working Memory: {Fever, Headache, Fatigue}
 
-R1: Fever ∧ Headache ∧ Fatigue → ✔ FIRES → Malaria
-R2: Cough ∧ Chest Pain ∧ Fatigue → ✘ (Cough, Chest Pain absent)
-R3: Sneezing ∧ Runny Nose ∧ Sore Throat → ✘
-R4: Vomiting ∧ Diarrhea ∧ Fatigue → ✘ (Vomiting, Diarrhea absent)
+R1: Fever ∧ Headache ∧ Fatigue →  Malaria
+R2: Cough ∧ Chest Pain ∧ Fatigue → (Cough, Chest Pain absent)
+R3: Sneezing ∧ Runny Nose ∧ Sore Throat 
+R4: Vomiting ∧ Diarrhea ∧ Fatigue →  (Vomiting, Diarrhea absent)
 
 Conclusion: Malaria
 ```
