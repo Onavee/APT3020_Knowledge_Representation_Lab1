@@ -14,7 +14,7 @@ A simple **rule-based expert system** that infers possible illnesses from a set 
 
 ###  Knowledge Base Design
 
-The knowledge base is stored in [`knowledge_base.json`](knowledge_base.json) and contains:
+The knowledge base is stored in [`Knowledge_base.JSON`](Knowledge_base.JSON) and contains:
 
 | Component | Contents |
 |-----------|----------|
@@ -39,7 +39,7 @@ The CLI engine is implemented in [`KR.py`](KR.py).
 
 ###  Semantic Network Diagram
 
-The semantic network is saved as an SVG at [`semantic_network.png`](semantic_network.png).
+The semantic network is saved as an SVG at [`Semantic_Network_Diagram.png`](Semantic_Network_Diagram.png).
 
 It models three entity types and their relationships:
 
