@@ -1,5 +1,5 @@
 #  Medical Expert System
-### Knowledge Representation Lab — Rule-Based Inference Engine
+### Knowledge Representation  — Rule-Based Inference Engine
 
 
 ## Overview
@@ -47,7 +47,7 @@ It models three entity types and their relationships:
 [Patient] ──has_symptom──▶ [Symptom] ──indicates──▶ [Disease]
 ```
 
-- 
+
 - **Symptom nodes** (rounded rectangles, amber) — the 10 possible symptoms
 - **Disease nodes** (Rectangles, ) — the 4 diagnosable conditions
 
