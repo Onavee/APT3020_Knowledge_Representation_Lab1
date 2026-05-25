@@ -11,13 +11,8 @@ A simple **rule-based expert system** that infers possible illnesses from a set 
 - **Inference** — forward-chaining to match symptoms against rules
 - **Semantic Network** — a graphical representation of relationships between patients, symptoms, and diseases
 
----
 
-
-
-## Tasks Completed
-
-### Task 1 — Knowledge Base Design
+###  Knowledge Base Design
 
 The knowledge base is stored in [`knowledge_base.json`](knowledge_base.json) and contains:
 
@@ -28,7 +23,7 @@ The knowledge base is stored in [`knowledge_base.json`](knowledge_base.json) and
 | **Rules** | 4 IF–THEN production rules (R1–R4) |
 | **Facts** | Domain metadata, version, disclaimer |
 
-### Task 2 — Rule-Based Inference System
+###  Rule-Based Inference System
 
 The CLI engine is implemented in [`KR.py`](KR.py).
 
@@ -42,7 +37,7 @@ The CLI engine is implemented in [`KR.py`](KR.py).
 | R4   | Vomiting ∧ Diarrhea ∧ Fatigue | Food Poisoning |
 
 
-### Task 3 — Semantic Network Diagram
+###  Semantic Network Diagram
 
 The semantic network is saved as an SVG at [`semantic_network.png`](semantic_network.png).
 
@@ -52,11 +47,9 @@ It models three entity types and their relationships:
 [Patient] ──has_symptom──▶ [Symptom] ──indicates──▶ [Disease]
 ```
 
-- **Patient nodes** (ellipses) — represent individual patients (e.g. Alice, Bob)
+- 
 - **Symptom nodes** (rounded rectangles, amber) — the 10 possible symptoms
-- **Disease nodes** (diamonds, red) — the 4 diagnosable conditions
-- **Rule labels** (blue badges) — which rule connects each symptom group to its disease
-
+- **Disease nodes** (Rectangles, ) — the 4 diagnosable conditions
 
 
 ## How the Inference Engine Works
